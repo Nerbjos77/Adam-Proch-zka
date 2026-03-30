@@ -9,6 +9,7 @@ from werkzeug.security import check_password_hash
 
 
 
+
 def load_image(rel_path):
     return pygame.image.load(rel_path)
 
